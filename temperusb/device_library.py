@@ -94,15 +94,26 @@ DEVICE_LIBRARY = {
         hum_sens_offsets=None,
         type=TemperType.FM75,
     ),
-    "TEMPer2V4.1": TemperConfig(
+    "TEMPer2": TemperConfig(
         temp_sens_offsets=[2, 4],
         hum_sens_offsets=None,
         type=TemperType.FM75,
     ),
     # idVendor           0x3553 
     # idProduct          0xa001 
-    # iManufacturer           1 PCsensor
-    # iProduct                2 TEMPer2
+    # iManufacturer      1 PCsensor
+    # iProduct           2 TEMPer2
+    #
+    # Output sample (behind '## '):
+    #
+    ## www.pcsensor.com
+    ## temper2 v4.1
+    ## caps lock:on/off/++
+    ## num lock:off/on/-- 
+    ## type:inner-tx;outer-tx
+    ## inner-temp	outer-temp	interval
+    ## 34.06 [c]	25.56 [c]	1s
+    ##
 
     # The config used if the sensor type is not recognised.
     # If your sensor is working but showing as unrecognised, please
