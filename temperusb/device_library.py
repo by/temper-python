@@ -104,7 +104,7 @@ DEVICE_LIBRARY = {
     # iManufacturer      1 PCsensor
     # iProduct           2 TEMPer2
     #
-    # Output sample (behind '## '):
+    # Output samples (behind '## '):
     #
     ## www.pcsensor.com
     ## temper2 v4.1
@@ -114,6 +114,12 @@ DEVICE_LIBRARY = {
     ## inner-temp	outer-temp	interval
     ## 34.06 [c]	25.56 [c]	1s
     ##
+    ## $ sudo temper --verbose
+    ## Firmware query: b'0186ff0100000000'
+    ## Firmware value: b'54454d506572325f56342e3100000000' TEMPer2_V4.1
+    ## Data value: b'80800b544e200000800109ca4e200000'
+    ## Converted value: b'09ca'
+    ## Bus 003 Dev 002 3553:a001 TEMPer2_V4.1 29.00C 84.20F - 25.06C 77.11F -
 
     # The config used if the sensor type is not recognised.
     # If your sensor is working but showing as unrecognised, please
