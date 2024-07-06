@@ -94,6 +94,16 @@ DEVICE_LIBRARY = {
         hum_sens_offsets=None,
         type=TemperType.FM75,
     ),
+    "TEMPer2V4.1": TemperConfig(
+        temp_sens_offsets=[2, 4],
+        hum_sens_offsets=None,
+        type=TemperType.FM75,
+    ),
+    # idVendor           0x3553 
+    # idProduct          0xa001 
+    # iManufacturer           1 PCsensor
+    # iProduct                2 TEMPer2
+
     # The config used if the sensor type is not recognised.
     # If your sensor is working but showing as unrecognised, please
     # add a new entry above based on "generic_fm75" below, and submit 
