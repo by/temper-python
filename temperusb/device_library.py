@@ -95,7 +95,7 @@ DEVICE_LIBRARY = {
         type=TemperType.FM75,
     ),
     "TEMPer2": TemperConfig(
-        temp_sens_offsets=[2, 4],
+        temp_sens_offsets=[2, 10],
         hum_sens_offsets=None,
         type=TemperType.FM75,
     ),
